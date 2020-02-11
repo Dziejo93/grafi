@@ -7,7 +7,7 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p className="bg-blue-300 text-left text-3xl">
+        <p className="bg-red-300 text-left text-3xl">
           Edit <code>src/App.tsx</code>    xd and save to reload.
         </p>
         <a
