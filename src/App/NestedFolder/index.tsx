@@ -1,12 +1,15 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 
-const dupa = false;
+const dupa = true;
 
-const Login: React.FC = () => {
+const NestedRoute: React.FC = () => {
+  const history = useHistory();
+
   if (dupa) {
-    return <div> login or something</div>;
+    history.push('/login');
   }
   return <div>koniec zabawy</div>;
 };
 
-export default Login;
+export default NestedRoute;

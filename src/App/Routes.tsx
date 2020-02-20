@@ -1,15 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
-import Authenticate from '../Auth/Authenticate';
-import NestedFolder from './NestedFolder';
+import Layout from '../shared/components/Layout';
 
 const Routes: React.FC = () => {
   return (
     <Router>
       <Switch>
         <Redirect exact from="/" to="/nested" />
-        <Route path="/authenticate" component={Authenticate} />
-        <Route path="/nested" component={NestedFolder} />
+        <Route path="/login" />
+        <Route path="/nested" component={Layout} />
       </Switch>
     </Router>
   );
