@@ -1,9 +1,9 @@
 import React from 'react';
-import Login from '../../Auth/Login';
+import Login from './Auth/Login';
 
 const Layout: React.FC = () => {
   return (
-    <main className="h-screen bg-gray-500">
+    <main>
       <Login />
     </main>
   );

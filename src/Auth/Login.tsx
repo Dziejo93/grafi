@@ -3,7 +3,7 @@ import Card from '../shared/components/Card';
 
 const Login: React.FC = () => {
   return (
-    <div className="flex justify-center">
+    <div>
       <Card />
     </div>
   );
